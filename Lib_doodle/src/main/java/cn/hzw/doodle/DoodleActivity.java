@@ -208,7 +208,8 @@ public class DoodleActivity extends Activity {
 
 
                     File dcimFile = new File(SDStorageCacheInspectionPic);
-                    Log.e("dcimFile路径", dcimFile.getAbsolutePath());
+                    Log.e("dcimFile路径", dcimFile.getPath());
+
 //                    Log.e("dcimFile1路径",dcimFile1.getAbsolutePath().toString());
                     doodleFile = new File(dcimFile, "");
 //                    doodleFile = new File(dcimFile, "Doodle");

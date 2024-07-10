@@ -10,6 +10,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Lib_Androids" />
             <option value="$PROJECT_DIR$/Lib_doodle" />
             <option value="$PROJECT_DIR$/app" />
           </set>

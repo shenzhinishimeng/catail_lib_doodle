@@ -24,3 +24,4 @@ dependencyResolutionManagement {
 rootProject.name = "Lib_Doodles"
 include ':app'
 include ':Lib_doodle'
+include ':Lib_Androids'
