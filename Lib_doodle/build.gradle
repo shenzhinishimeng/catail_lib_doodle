@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 34
-
+    namespace 'cn.hzw.doodle'
     defaultConfig {
         minSdkVersion 23
         targetSdkVersion 34

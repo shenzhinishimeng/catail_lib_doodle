@@ -14,7 +14,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import cn.forward.androids.base.InjectionLayoutInflater;
+//import cn.forward.androids.base.InjectionLayoutInflater;
 import cn.forward.androids.utils.StatusBarUtil;
 import cn.hzw.doodle.R;
 import cn.hzw.doodle.imagepicker.ImageSelectorView;
@@ -63,9 +63,12 @@ public class DialogController {
             }
         };
 
-        View view = InjectionLayoutInflater.from(activity).inflate(R.layout.doodle_dialog, null,
-                InjectionLayoutInflater.getViewOnClickListenerInjector(onClickListener));
+//        View view = InjectionLayoutInflater.from(activity).inflate(R.layout.doodle_dialog, null,
+//                InjectionLayoutInflater.getViewOnClickListenerInjector(onClickListener));
+//        dialog.setContentView(view);
+        View view = View.inflate(activity, R.layout.doodle_dialog, null);
         dialog.setContentView(view);
+
 
         if (TextUtils.isEmpty(title)) {
             dialog.findViewById(R.id.dialog_title).setVisibility(View.GONE);
