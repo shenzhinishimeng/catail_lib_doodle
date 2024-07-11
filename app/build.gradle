@@ -39,7 +39,7 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
-//    implementation project(':Lib_doodle')
-    implementation 'com.github.shenzhinishimeng.catail_lib_doodle:Doodles:1.0.12'
-
+    implementation project(':Lib_doodle')
+//    implementation 'com.github.shenzhinishimeng.catail_lib_doodle:Doodles:1.0.12'
+//
 }
