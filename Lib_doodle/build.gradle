@@ -32,8 +32,8 @@ afterEvaluate {
     publishing {
         publications {
             // Creates a Maven publication called "release".
-            group = 'com.github.shenzhinishimeng'
-            version = '1.0.16'
+            group = 'cn.hzw'
+            version = '1.0.17'
             //发布release版本
             release(MavenPublication) {
                 // Applies the component for the release build variant.
@@ -41,7 +41,7 @@ afterEvaluate {
                 //groupId通常是自己的gitee或者GitHub的账户地址
                 groupId = group
                 //artifactId通常是指待发布项目的名称，也就是别名
-                artifactId = 'Doodles'
+                artifactId = 'doodle'
                 //version通常是指待发布项目的版本号，这里是写死的，通常我们取项目versionName
                 version = version
             }
