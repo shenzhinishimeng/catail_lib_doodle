@@ -1,5 +1,4 @@
 apply plugin: 'com.android.library'
-apply plugin: 'maven-publish'
 
 
 android {
@@ -15,6 +14,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
 }
 
 dependencies {
@@ -24,13 +28,4 @@ dependencies {
     api project(':Lib_Androids') //图片编辑工具类摸快.
 }
 
-afterEvaluate {
-    android.libraryVariants.each {variant->
-        publishing.publications.create(variant.name,MavenPublication){
-            from components.findByName(variant.name)
-            groupId = 'com.yangzaiarea'//自定义
-            artifactId = 'yzutils'//自定义
-            version = '1.0.0'//自定义
-        }
-    }
-}
+
