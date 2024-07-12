@@ -32,7 +32,7 @@ afterEvaluate {
     publishing {
         publications {
             // Creates a Maven publication called "release".
-            group = 'cn.hzw'
+            group = 'com.shenzhinishimeng'
             version = '1.0.17'
             //发布release版本
             release(MavenPublication) {
@@ -56,6 +56,8 @@ afterEvaluate {
         }
     }
 }
+
+
 
 //task generateSourcesJar(type: Jar){
 //    from android.sourceSets.main.java.srcDirs
