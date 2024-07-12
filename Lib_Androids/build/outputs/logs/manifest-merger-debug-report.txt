@@ -1,11 +1,11 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\CMS-Workspace\BES-Modules\Lib_Doodles\Lib_Androids\AndroidManifest.xml:2:1-5:12
-INJECTED from D:\CMS-Workspace\BES-Modules\Lib_Doodles\Lib_Androids\AndroidManifest.xml:2:1-5:12
-INJECTED from D:\CMS-Workspace\BES-Modules\Lib_Doodles\Lib_Androids\AndroidManifest.xml:2:1-5:12
+ADDED from D:\CMS-Workspace\BES-Modules\Lib_Doodles\Lib_Androids\AndroidManifest.xml:2:1-3:12
+INJECTED from D:\CMS-Workspace\BES-Modules\Lib_Doodles\Lib_Androids\AndroidManifest.xml:2:1-3:12
+INJECTED from D:\CMS-Workspace\BES-Modules\Lib_Doodles\Lib_Androids\AndroidManifest.xml:2:1-3:12
 	package
-		ADDED from D:\CMS-Workspace\BES-Modules\Lib_Doodles\Lib_Androids\AndroidManifest.xml:3:11-40
 		INJECTED from D:\CMS-Workspace\BES-Modules\Lib_Doodles\Lib_Androids\AndroidManifest.xml
+		ADDED from D:\CMS-Workspace\BES-Modules\Lib_Doodles\Lib_Androids\AndroidManifest.xml:2:1-3:12
 		INJECTED from D:\CMS-Workspace\BES-Modules\Lib_Doodles\Lib_Androids\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\CMS-Workspace\BES-Modules\Lib_Doodles\Lib_Androids\AndroidManifest.xml:2:11-69
