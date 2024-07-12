@@ -31,31 +31,18 @@ dependencies {
 afterEvaluate {
     publishing {
         publications {
-            // Creates a Maven publication called "release".
-            group = 'com.shenzhinishimeng'
-            version = '1.0.17'
-            //发布release版本
             release(MavenPublication) {
-                // Applies the component for the release build variant.
 //                from components.release
-                //groupId通常是自己的gitee或者GitHub的账户地址
-                groupId = group
-                //artifactId通常是指待发布项目的名称，也就是别名
-                artifactId = 'doodle'
-                //version通常是指待发布项目的版本号，这里是写死的，通常我们取项目versionName
-                version = version
-            }
-            //发布debug版本
-            debug(MavenPublication) {
-                // Applies the component for the release build variant.
-//                from components.debug
-                groupId = group
-                artifactId = 'group-debug'
-                version = version
+                from components.findByName('release')
+                groupId = 'com.shenzhinishimeng' //groupId 随便取，jitpack不会使用
+                artifactId = 'doodle'  //test随便取,jitpack不会使用
+                version = '1.0.18' //随便取，jitpack不会使用
             }
         }
     }
 }
+
+
 
 
 
