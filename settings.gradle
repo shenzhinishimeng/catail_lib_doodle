@@ -1,30 +1,3 @@
-pluginManagement {
-    repositories {
-        maven { url 'https://maven.aliyun.com/repository/public' }
-        maven { url 'https://maven.aliyun.com/repository/google' }
-        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
-
-        google()
-        mavenLocal()
-        mavenCentral()
-        maven { url 'https://jitpack.io' }
-    }
-}
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        maven { url 'https://maven.aliyun.com/repository/public' }
-        maven { url 'https://maven.aliyun.com/repository/google' }
-        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
-
-        google()
-        mavenLocal()
-        mavenCentral()
-        maven { url 'https://jitpack.io' }
-    }
-}
-rootProject.name = "Lib_Doodles"
-
 include ':app'
 include ':Lib_doodle'
 include ':Lib_Androids'
